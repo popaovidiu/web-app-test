@@ -33,28 +33,43 @@ public class ApplicationConfiguration {
     	return new SecurityFilter();
     }
     
-	@Bean
-	public DataSource dataSource() {
-		BasicDataSource dataSource = new BasicDataSource();
-		dataSource.setDriverClassName("org.postgresql.Driver");
-		
-		String url = new StringBuilder()
-				.append("jdbc:")
-				.append("postgresql")
-				.append("://")
-				.append("localhost")
-				.append(":")
-				.append("5432")
-				.append("/")
-				.append("ems").toString();
-		
-		dataSource.setUrl(url);
-		dataSource.setUsername("postgres");
-		dataSource.setPassword("q1w2e3r4");
-		return dataSource;
-		
-	}
+//	@Bean
+//	public DataSource dataSource() {
+//		BasicDataSource dataSource = new BasicDataSource();
+//		dataSource.setDriverClassName("org.postgresql.Driver");
+//		
+//		String url = new StringBuilder()
+//				.append("jdbc:")
+//				.append("postgresql")
+//				.append("://")
+//				.append("localhost")
+//				.append(":")
+//				.append("5432")
+//				.append("/")
+//				.append("ems").toString();
+//		
+//		dataSource.setUrl(url);
+//		dataSource.setUsername("postgres");
+//		dataSource.setPassword("q1w2e3r4");
+//		return dataSource;
+//		
+//	}
 	
+    @Bean
+    public BasicDataSource dataSource() {
+        String dbUrl = System.getenv("JDBC_DATABASE_URL");
+        String username = System.getenv("JDBC_DATABASE_USERNAME");
+        String password = System.getenv("JDBC_DATABASE_PASSWORD");
+
+        BasicDataSource basicDataSource = new BasicDataSource();
+        basicDataSource.setUrl(dbUrl);
+        basicDataSource.setUsername(username);
+        basicDataSource.setPassword(password);
+
+        return basicDataSource;
+    }
+    
+    
 	@Bean
 	public EmployeeDAO employeeDAO() {
 		//return new IMEmployeeDAO();
