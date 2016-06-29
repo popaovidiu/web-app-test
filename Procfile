@@ -1,1 +1,1 @@
-web: java -Dserver.port=$SPORT -jar target/mvc-demo-0.0.1-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/mvc-demo-0.0.1-SNAPSHOT.jar
