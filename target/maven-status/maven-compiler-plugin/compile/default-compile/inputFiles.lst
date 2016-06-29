@@ -1,0 +1,16 @@
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/domain/Gender.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/cfg/ApplicationConfiguration.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/mvc/LoginController.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/dao/db/JdbcTemplateEmployeeDAO.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/domain/Employee.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/mvc/EmployeeController.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/service/EmployeeService.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/MvcDemoApplication.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/dao/EmployeeDAO.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/dao/inmemory/IMEmployeeDAO.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/domain/AbstractModel.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/service/ValidationException.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/dao/db/JDBCEmployeeDAO.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/domain/User.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/dao/inmemory/IMBaseDAO.java
+/Volumes/work/scoalaInformala/Java/grp2/mvc-demo/src/main/java/ro/sci/ems/dao/BaseDAO.java
